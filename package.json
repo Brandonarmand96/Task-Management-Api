@@ -13,7 +13,7 @@
   "license": "ISC",
   "author": "Brandon Armand Nyamkimbi",
   "type": "commonjs",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
     "start": "node server.js",
     "dev": "node server.js",
