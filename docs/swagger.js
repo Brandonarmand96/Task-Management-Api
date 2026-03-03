@@ -7,7 +7,7 @@ const swaggerDocument = {
     version: '1.0.0',
     description: 'API for managing tasks using Supabase and Node.js',
   },
-  servers: [{ url: 'http://localhost:3000', description: 'Local server' }],
+  servers: [{ url: 'https://task-management-api-mocha.vercel.app/', description: 'Live server' }, { url: 'http://localhost:3000', description: 'Local server' }],
   components: {
     schemas: {
       Task: {
