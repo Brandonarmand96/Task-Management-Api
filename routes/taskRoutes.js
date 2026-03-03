@@ -1,6 +1,6 @@
 const express = require('express');
 const router = express.Router();
-const tasksController = require('../controllers/tasksController');
+const tasksController = require('../controllers/taskController');
 const { validateCreateTask, validateUpdateTask, validateTaskId } = require('../validators/taskValidators');
 
 // CRUD routes

@@ -1,7 +1,7 @@
 const express = require('express');
-const taskRoutes = require('./routes/taskRoutes');
-const { errorHandler, notFoundHandler } = require('./middlewares/errorHandler');
-const setupSwagger = require('./docs/swaggerSetup');
+const taskRoutes = require('../routes/taskRoutes');
+const { errorHandler, notFoundHandler } = require('../middlewares/errorHandler');
+const setupSwagger = require('../docs/swaggerSetup');
 
 const app = express();
 
