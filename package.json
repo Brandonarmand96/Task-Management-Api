@@ -1,0 +1,31 @@
+{
+  "name": "task-management-api",
+  "version": "1.0.0",
+  "description": "A simple task management api for an interview swagger docs at /api-docs",
+  "homepage": "https://github.com/Brandonarmand96/Task-Management-Api#readme",
+  "bugs": {
+    "url": "https://github.com/Brandonarmand96/Task-Management-Api/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Brandonarmand96/Task-Management-Api.git"
+  },
+  "license": "ISC",
+  "author": "Brandon Armand Nyamkimbi",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js",
+    "build": "echo \"Build successful - No build step required for Node.js backend\"",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "@supabase/supabase-js": "^2.98.0",
+    "dotenv": "^17.3.1",
+    "express": "^5.2.1",
+    "joi": "^18.0.2",
+    "swagger-jsdoc": "^6.2.8",
+    "swagger-ui-express": "^5.0.1"
+  }
+}
